@@ -45,5 +45,6 @@ describe('todo app tests', () => {
     expect(todoTwo.previousElementSibling).toBeChecked();
     expect(todoTwo).toHaveClass('line-through');
   })
+  //
 });
 
